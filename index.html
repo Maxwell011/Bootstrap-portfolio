@@ -1,199 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <!-- Nav -->
-  <ul class="nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Contact</a>
-    </li>
-  </ul>
-  <!-- end of nav -->
-
-  <h1 class="fw-bold">I’m Alexandra
-    Glad to see you!</h1>
-  <p class="text-lowercase">I’m a software developer! I can help you build a product ,
-    feature or website Look through some of my work and experience! If you like what
-    you see and have a project you need coded, don’t hestiate to contact me.</p>
-  <!-- card -->
-
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="card mb-3" style="max-width: 1040px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="./Images/Snapshoot-Portfolio5.png" class="img-fluid rounded-start" style="max-width: 340px"
-                alt="..." />
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-xl">
+        <a class="navbar-brand" href="#">My Logo</a>
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="container p-5 mt-5">
+      <h2 class="fs-1 fw-bolder">
+        I'm Mariane <br />
+        Glad to see you!
+      </h2>
+      <p class="fs-5 pt-2">
+        I'm a software developer! I can help you build a product , feature or
+        website Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don’t hestiate to contact me.
+      </p>
+      <p class="fs-5 pt-2">LET'S CONNECT</p>
+      <ul class="list-group list-group-horizontal list-unstyled pt-2">
+        <li>
+          <a href="#" class="p-2"
+            ><img src="./img/twitter.png" alt="twitter"
+          /></a>
+        </li>
+        <li>
+          <a href="#" class="p-2"
+            ><img src="./img/linkedin.png" alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="#" class="p-2"
+            ><img src="./img/M.png" alt="social-network"
+          /></a>
+        </li>
+        <li>
+          <a href="#" class="p-2"
+            ><img src="./img/Github.png" alt="github"
+          /></a>
+        </li>
+        <li>
+          <a href="#" class="p-2"
+            ><img src="./img/social.png" alt="social-network"
+          /></a>
+        </li>
+      </ul>
+    </section>
+    <section class="d-flex flex-wrap justify-content-center">
+      <div id="card1" class="card mt-5 mb-5">
+        <div class="row no-gutters">
+          <img src="img/Snap1.png" class="col-md-6 p-5" alt="..." />
+          <div class="card-body col-md-6 pt-5">
+            <h2 class="card-title fs-1 fw-bolder">Tonic</h2>
+            <div class="list-group list-group-horizontal list-unstyled pt-2">
+              <div class="pe-2 pt-2"><p>CANOPY</p></div>
+              <div class="p-2"><img src="img/dot.png" alt="" /></div>
+              <div class="p-2"><p>Back End Dev</p></div>
+              <div class="p-2"><img src="img/dot.png" alt="" /></div>
+              <div class="p-2"><p>2015</p></div>
             </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Tonic</h5>
-                <span class="badge bg-light text-dark">CANOPY</span>
-                <span class="badge bg-light text-dark">Back End Dev</span>
-                <span class="badge bg-light text-dark">2015</span>
-                <p class="card-text">
-                  A daily selection of privately personalized reads; no accounts or
-                  sign-ups required.
-                </p>
-                <span class="badge bg-info text-dark">html</span>
-<span class="badge bg-info text-dark">css</span>
-<span class="badge bg-info text-dark">JavaScript</span><br><br>
-<button type="button" class="btn btn-secondary">See project</button>
-</div>
-</div>
-</div>
-<div class="card mb-3" style="max-width: 1156px" ;>
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="./Images/Snapshoot-Portfolio1.png" class="img-fluid rounded-start" alt="..." />
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title fs-1 font-poppins">Tonic</h5>
-        <span class="badge bg-light text-dark">CANOPY</span>
-        <span class="badge bg-light text-dark">Back End Dev</span>
-        <span class="badge bg-light text-dark">2015</span>
-        <p class="card-text font-poppins">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <span class="badge bg-info text-dark">html</span>
-        <span class="badge bg-info text-dark">css</span>
-        <span class="badge bg-info text-dark">JavaScript</span><br><br>
-        <button type="button" class="btn btn-secondary">See project</button>
-      </div>
-    </div>
-    <div class="card mb-3" style="max-width: 1156px";>
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="./Images/Snapshoot-Portfolio5.png" class="img-fluid rounded-start" alt="..." />
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title fs-1">Multi-Post Stories</h5>
-            <span class="badge bg-light text-dark">FACEBOOK</span>
-            <span class="badge bg-light text-dark fw-light fs-5">FULL STACK DEV</span>
-            <span class="badge bg-light text-dark fw-light fs-5">2015</span>
-            <p class="card-text font-poppins">
-              Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+            <p class="card-text">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
             </p>
-            <span class="badge bg-info text-dark">html</html></span>
-            <span class="badge bg-info text-dark">css</span>
-            <span class="badge bg-info text-dark">JavaScript</span><br><br>
-            <button type="button" class="btn btn-secondary">See project</button>
+            <ul
+              class="list-group list-group-horizontal list-unstyled pt-2 mb-3"
+            >
+              <li class="p-2 pe-3 ps-3 me-2 rounded-3 bg-primary">html</li>
+              <li class="p-2 pe-3 ps-3 me-2 rounded-3 bg-primary">css</li>
+              <li class="p-2 pe-3 ps-3 me-2 rounded-3 bg-primary">
+                javaScript
+              </li>
+            </ul>
+            <a href="#" class="btn btn-primary">See Project</a>
           </div>
         </div>
       </div>
-    </div>
-    <div class="card mb-3" style="max-width: 1156px";>
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="./Images/Snapshoot-Portfolio5.png" class="img-fluid rounded-start" alt="..." />
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title fs-1">Facebook 360</h5>
-            <span class="badge bg-light text-dark fw-bold fs-5">FACEBOOK</span>
-            <span class="badge bg-light text-dark fw-light fs-5">FULL STACK DEV</span>
-            <span class="badge bg-light text-dark fw-light fs-5">2015</span>
-            <p class="card-text font-poppins">
-              Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+
+      <div id="card2" class="card mt-5 mb-5">
+        <div class="row no-gutters">
+          <div class="card-body col-md-6 pt-5 ps-5">
+            <h2 class="card-title fs-1 fw-bolder">Multi Post Stories</h2>
+            <div class="list-group list-group-horizontal list-unstyled pt-2">
+              <div class="pe-2 pt-2"><p>FACEBOOK</p></div>
+              <div class="p-2"><img src="img/dot.png" alt="" /></div>
+              <div class="p-2"><p>Full Stack Dev</p></div>
+              <div class="p-2"><img src="img/dot.png" alt="" /></div>
+              <div class="p-2"><p>2015</p></div>
+            </div>
+            <p class="card-text">
+              Experimental content creation feature that allows users to add an
+              existing story over the course of a day without spamming their
+              friends.
             </p>
-            <span class="badge bg-info text-dark">html</html></span>
-            <span class="badge bg-info text-dark">css</span>
-            <span class="badge bg-info text-dark">JavaScript</span><br><br>
-            <button type="button" class="btn btn-secondary">See project</button>
+            <ul
+              class="list-group list-group-horizontal list-unstyled pt-2 mb-3"
+            >
+              <li class="p-2 pe-3 ps-3 me-2 rounded-3 bg-primary">html</li>
+              <li class="p-2 pe-3 ps-3 me-2 rounded-3 bg-primary">
+                Ruby on rails
+              </li>
+              <li class="p-2 pe-3 ps-3 me-2 rounded-3 bg-primary">css</li>
+              <li class="p-2 pe-3 ps-3 me-2 rounded-3 bg-primary">
+                javaScript
+              </li>
+            </ul>
+            <a href="#" class="btn btn-primary">See Project</a>
+          </div>
+          <img src="img/Snap2.png" class="col-md-6 p-5" alt="..." />
+        </div>
+      </div>
+
+      <div id="card3" class="card mt-5 mb-5">
+        <div class="row no-gutters">
+          <img src="img/Snap3.png" class="col-md-6 p-5" alt="..." />
+          <div class="card-body col-md-6 pt-5">
+            <h2 class="card-title fs-1 fw-bolder">Facebook 360</h2>
+            <div class="list-group list-group-horizontal list-unstyled pt-2">
+              <div class="pe-2 pt-2"><p>FACEBOOK</p></div>
+              <div class="p-2"><img src="img/dot.png" alt="" /></div>
+              <div class="p-2"><p>Back End Dev</p></div>
+              <div class="p-2"><img src="img/dot.png" alt="" /></div>
+              <div class="p-2"><p>2015</p></div>
+            </div>
+            <p class="card-text">
+              Exploring the future of media in Facebook`s first Virtual Reality
+              app; a place to discover 360 photos and videos on Gear VR.
+            </p>
+            <ul
+              class="list-group list-group-horizontal list-unstyled pt-2 mb-3"
+            >
+              <li class="p-2 pe-3 ps-3 me-2 rounded-3 bg-primary">html</li>
+              <li class="p-2 pe-3 ps-3 me-2 rounded-3 bg-primary">
+                Ruby on rails
+              </li>
+              <li class="p-2 pe-3 ps-3 me-2 rounded-3 bg-primary">css</li>
+              <li class="p-2 pe-3 ps-3 me-2 rounded-3 bg-primary">
+                javaScript
+              </li>
+            </ul>
+            <a href="#" class="btn btn-primary">See Project</a>
           </div>
         </div>
-  </div>
-</div>
-<div class="card mb-3" style="max-width: 1156px" ;>
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="./Images/Snapshoot-Portfolio3.png" class="img-fluid rounded-start" alt="..." />
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title fs-1">Multi-Post Stories</h5>
-        <span class="badge bg-light text-dark">FACEBOOK</span>
-        <span class="badge bg-light text-dark">FULL STACK DEV</span>
-        <span class="badge bg-light text-dark">2015</span>
-        <p class="card-text font-poppins">
-          Experimental content creation feature that allows users to add to an existing story over the course of a day
-          without spamming their friends.
-        </p>
-        <span class="badge bg-info text-dark">html</span>
-        <span class="badge bg-info text-dark">css</span>
-        <span class="badge bg-info text-dark">JavaScript</span><br><br>
-        <button type="button" class="btn btn-secondary">See project</button>
       </div>
-    </div>
-  </div>
-</div>
-<div class="card mb-3" style="max-width: 1156px" ;>
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="./Images/Snapshoot-Portfolio5.png" class="img-fluid rounded-start" alt="..." />
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title fs-1">Facebook 360</h5>
-        <span class="badge bg-light text-dark">FACEBOOK</span>
-        <span class="badge bg-light text-dark">FULL STACK DEV</span>
-        <span class="badge bg-light text-dark">2015</span>
-        <p class="card-text font-poppins">
-          Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360
-          photos and videos on Gear VR.
-        </p>
-        <span class="badge bg-info text-dark">html</span>
-        <span class="badge bg-info text-dark">css</span>
-        <span class="badge bg-info text-dark">JavaScript</span><br><br>
-        <button type="button" class="btn btn-secondary">See project</button>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="card mb-3" style="max-width: 1156px">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="./Images/Snapshoot-Portfolio5.png" class="img-fluid rounded-start" alt="..." />
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title fs-1">Uber Navigation</h5>
-        <span class="badge bg-light text-dark fw-bold fs-5">Uber</span>
-        <span class="badge bg-light text-dark fw-light fs-5">Lead Developer</span>
-        <span class="badge bg-light text-dark fw-light fs-5">2018</span>
-        <p class="card-text font-poppins">
-          A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer:
-          your car.
-        </p>
-        <span class="badge bg-info text-dark">html</span>
-        <span class="badge bg-info text-dark">css</span>
-        <span class="badge bg-info text-dark">JavaScript</span><br><br>
-        <button type="button" class="btn btn-secondary">See project</button>
-      </div>
-    </div>
-  </div>
-</div>
-</body>
+
+      
+  </body>
 </html>
